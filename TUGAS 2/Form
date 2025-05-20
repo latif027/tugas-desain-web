@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Formulir</title>
+</head>
+<body>
+
+  <h2>Formulir</h2>
+
+  <form action="/submit" method="post">
+  
+	<!-- text filed -->
+    <label for="fname">Nama Lengkap:</label><br>
+    <input type="text" id="fname" name="fname"><br><br>
+
+	<!-- password -->
+    <label for="password">Kata Sandi:</label><br>
+    <input type="password" id="Kata sandi" name="Kata Sandi"><br><br>
+
+	<!-- email -->
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email"><br><br>
+	
+	<!-- textarea -->
+    <label for="message">Pesan:</label><br>
+    <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+
+	<!-- radio button -->
+    <p>Jenis Kelamin:</p>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Laki-laki</label><br>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Perempuan</label><br><br>
+
+	<!-- dropdown -->
+    <label for="program">Agama:</label><br>
+    <select id="program" name="program">
+      <option value="Islam">Islam</option>
+      <option value="Kristen">Kristen</option>
+      <option value="Hindu">Hindu</option>
+	  <option value="Budha">Budha</option>
+	  <option value="Kong Hucu">Kong Hucu</option>
+    </select><br><br>
+	
+	<!-- checkbox -->
+    <p>Bahasa yang dikuasai:</p>
+    <input type="checkbox" id="Indonesia" name="lang" value="Indonesia">
+    <label for="Indonesia">Indonesia</label><br>
+    <input type="checkbox" id="Inggris" name="lang" value="Inggris">
+    <label for="Inggris">Inggris</label><br>
+    <input type="checkbox" id="Arab" name="lang" value="Arab">
+    <label for="Arab">Arab</label><br><br>
+
+	<!-- date -->
+    <label for="birthdate">Tanggal Lahir:</label><br>
+    <input type="date" id="birthdate" name="birthdate"><br><br>
+
+	<!-- Button submit dan reset-->
+    <input type="submit" value="Kirim">
+    <input type="reset" value="Reset">
+
+  </form>
+
+</body>
+</html>
