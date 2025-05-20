@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>
+                Tugas Semantics
+            </title>
+        </head>
+        <body>
+            <nav>
+                <a href="#">Beranda</a>
+                <a href="#">Profil</a>
+            </nav><br><br>
+            <table border="1" cellspacing="0" cellpadding="10">
+                <tr>
+                    <th>Nama</th>
+                    <th>Nim</th>
+                </tr>
+                <tr>
+                    <td>Ahmad</td>
+                    <td>112345567</td>
+                </tr>
+                <tr>
+                    <td>Muhammad</td>
+                    <td>223311355</td>
+                </tr>
+            </table><br><br>
+        
+            <footer>
+                <a href="#">Kontak</a>
+                <a href="#">Lokasi</a>
+            </footer>
+        </body>
+    </html>
