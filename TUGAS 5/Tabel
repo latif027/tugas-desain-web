@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>
+                Tugas tabel
+            </title>
+        </head>
+        <body>
+            <table border="1" cellspacing="0" cellpadding="10">
+                <tr>
+                    <th>Nama</th>
+                    <th>Nim</th>
+                </tr>
+                <tr>
+                    <td>Ahmad</td>
+                    <td>112345567</td>
+                </tr>
+                <tr>
+                    <td>Muhammad</td>
+                    <td>223311355</td>
+                </tr>
+            </table>
+        </body>
+    </html>
