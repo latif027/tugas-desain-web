@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>UTS Desain Web</title>
+		</head>
+		<body>
+			<nav>
+				<a href="beranda">Beranda</a>
+				<a href="profil">Profil</a>
+			</nav><br><br>
+			
+			<table border="1" cellspacing="0" cellpadding="10">
+				<tr>
+					<th>Nama</th>
+					<th>Nim</th>
+				</tr>
+				<tr>
+					<td>Ahmad</td>
+					<td>1124102196</td>
+				</tr>
+				<tr>
+					<td>Muhammad</td>
+					<td>1124102197</td>
+				</tr>
+				<tr>
+					<td>Hamid</td>
+					<td>1124102198</td>
+				</tr>
+			</table><br><br>
+			<form>
+				<label for="name">Nama Lengkap</label><br>
+				<input type="name" id="name" name="name"><br><br>
+				
+				<label for="password">Password</label><br>
+				<input type="password" id="password" name="password"><br><br>
+				
+				<label for="email">Email</label><br>
+				<input type="email" id="email" name="email"><br><br>
+				
+				<label for"pesan">Pesan<label><br>
+				<textarea name="pesan" rows="5" cols="50" value="pesan"></textarea><br><br>
+				
+				<p>Jenis Kelamin</p><br>
+				<input type="radio" id="male" name="gender" value="male">
+				<label for="male">Laki-Laki</label><br>
+				<input type="radio" id="female" name="gender" value="female">
+				<label for="female">Perempuan</label><br><br>
+				
+				<label for="religi">Agama</label>
+				<select name="religi">
+				<option value="islam">Islam</option>
+				<option value="kristen">Kristen</option>
+				<option value="budha">Budha</option>
+				</select><br><br>
+				
+				<p>Bahasa Yang Dikuasai</p><br>
+				<input type="checkbox" name="indonesia" id="indonesia" value="indonesia">
+				<label for ="indonesia">Indonesia</label><br>
+				<input type="checkbox" name="inggris" id="inggris" value="inggris">
+				<label for="inggris">Inggris</label><br><br>
+				
+				<label for"birthday">Tanggal Lahir</label>
+				<input type="date" id="birthday" name="birthday" value="birthday"><br><br>
+				
+				<input type="submit" value="Kirim">
+				<input type="reset" value="Reset">
+			</form><br><br>
+			<footer>
+				<a href="kontak">Kontak</a>
+				<a href="lokasi">Lokasi</a>
+			</footer>
+				
+		</body>
+	</html>	
+				
+				
+				
+				
+				
+				
+				
+			
+				
